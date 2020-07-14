@@ -1,0 +1,145 @@
+@font-face { font-family: 'BMDOHYEON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'S-CoreDream-9Black'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+    margin: 0;
+}
+
+#bk{
+    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/book&coffe_cut.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#bk_blur{
+    /*
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./img/book&coffe_cut.jpg');
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    transform: scale(1.02);
+    z-index: -1;
+    content: "";
+    */
+    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/book&coffe_cut_blur.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+#menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vh;
+    height: 100vh;
+    display: flexbox;
+    overflow: auto;
+}
+#menu::-webkit-scrollbar{
+    width: 10px;
+}
+#menu::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    background-clip: border-box;
+    border: 2px solid transparent;
+}
+#menu::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.menuBtn{
+    /*후에 사용 예정_사용하지 않을 수도 있음*/
+    background-image: url("https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/img/MENU.png");
+    background-color: transparent;
+    border: transparent;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0;
+    background-size: contain;
+}
+
+.menu{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+#full_row{
+    display: flexbox;
+    flex-direction: column;
+    width: 100%;
+}
+.title{
+    font-family: 'BMDOHYEON'; 
+    position: relative;
+    text-align: center;
+    font-size: 130px;
+    top: 210px;
+    color:white;
+    text-shadow: 5px 10px 10px black;
+}
+
+.menu_text{
+    font-family: 'S-CoreDream-9Black';
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 35pt;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+.top_margin{
+    margin-top: 30pt;
+}
+.content_text{
+    font-family: inherit;
+    font-size: 20pt;
+    margin-top: 10pt;
+    margin-left: 30pt;
+}
+
+ul{
+    padding-left: 10px;
+    list-style-type: none;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.drop-content{
+    display: none;
+}
+.drop2-content{
+    display:none;
+}
+.drop:hover .drop-content{
+    display:block;
+}
+
+.drop2{
+    font-size:35px;
+}
+
+.drop2:hover .drop2-content{
+    display:block;
+}
+
+
+
