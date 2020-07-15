@@ -1,7 +1,14 @@
 @font-face { font-family: 'BMDOHYEON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'S-CoreDream-9Black'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'OTEnjoystoriesBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 body{
     margin: 0;
+    margin-top: -100px;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 #bk{
@@ -10,7 +17,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
 }
 
 #bk_blur{
@@ -20,7 +26,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/book&coffe_cut.jpg');
+    background-image: url('./img/book&coffe_cut.jpg');
     background-size: cover;
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -142,4 +148,61 @@ li>a{
 }
 
 
+.imgBtn{
+    top: 250px;
+    display: block;
+    width: 350px;
+    height: 480px;
+}
+.imgBtn:hover{
+    border: 5px solid #ffffff;
+}
+.Btnimg{
+    width:300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.readBtn{
+    position: absolute;
+    left: 450px;
+    
+}
+.writeBtn{
+    position: absolute;
+    right: 450px;
+}
 
+.BtnText{
+    font-family: 'S-CoreDream-9Black';
+    text-align: center;
+    font-size: 40pt;
+    color: white;
+}
+
+.content_title{
+    font-family: 'BMDOHYEON'; 
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 10px 10px black;
+    padding: 40pt;
+}
+
+.quote_content{
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+    margin-top: 600px;
+    margin-bottom: 0;
+}
+.quote_writer{
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
