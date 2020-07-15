@@ -4,7 +4,6 @@
 
 body{
     margin: 0;
-    margin-top: -100px;
 }
 
 *{
@@ -18,6 +17,11 @@ body{
     background-size: cover;
     height: 100vh;
 }
+.marginModify{
+    margin-top: -100px;
+}
+
+
 
 #bk_blur{
     /*
