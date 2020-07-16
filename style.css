@@ -11,7 +11,7 @@ body{
 }
 
 #bk{
-    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/book&coffe_cut.jpg');
+    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/img/book&coffe_cut.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ body{
     z-index: -1;
     content: "";
     */
-    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/book&coffe_cut_blur.jpg');
+    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/img/book&coffe_cut_blur.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ body{
 
 .menuBtn{
     /*후에 사용 예정_사용하지 않을 수도 있음*/
-    background-image: url("https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/MENU.png");
+    background-image: url("https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/img/MENU.png");
     background-color: transparent;
     border: transparent;
     width: 50px;
