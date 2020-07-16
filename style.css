@@ -41,7 +41,7 @@ body{
     z-index: -1;
     content: "";
     */
-    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/img/book&coffe_cut_blur.jpg');
+    background-image: url('img/book&coffe_cut_blur.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
