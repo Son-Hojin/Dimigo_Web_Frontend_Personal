@@ -11,7 +11,7 @@ body{
 }
 
 #bk{
-    background-image: url('.img/book&coffe_cut.jpg');
+    background-image: url('img/book&coffe_cut.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
