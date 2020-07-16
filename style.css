@@ -11,7 +11,7 @@ body{
 }
 
 #bk{
-    background-image: url('https://son-hojin.github.io/Dimigo_Web_Frontend_Personal/img/book&coffe_cut.jpg');
+    background-image: url('.img/book&coffe_cut.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
